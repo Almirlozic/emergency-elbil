@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/infographic.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+  </head>
+  <body id="register">
+    <header>
+      <nav>
+        <div id="logotype-wrapper">
+          <a href="index.html"> LOGOTYPE </a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+          <li><a class="menuItem" href="register.html">Indberet</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Oplev elbilens fordele</h1>
+      <section id="form-section">
+        <article id="form-info">
+          <h2>Book Din Testkørsel Nu</h2>
+          <!-- <p>Tekst</p> -->
+        </article>
+        <form id="webform">
+          <div class="form-1">
+            <label for="f-name"></label>
+            <input id="f-name" type="text" placeholder="Fornavn" />
+            <label for="l-name"></label>
+            <input id="l-name" type="text" placeholder="Efternavn" />
+          </div>
+          <div class="form-1">
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="Mail adresse" />
+          </div>
+          <div class="form-1">
+            <label for="dropdown"></label>
+            <select name="biler" id="biler">
+              <option value="" disabled selected>Vælg en bilmodel</option>
+              <option value="Tesla model y">Tesla model y</option>
+              <option value="Tesla model s">Tesla model s</option>
+              <option value="Audi e-tron">Audi e-tron</option>
+              <option value="Audi A6 e-tron">Audi A6 e-tron</option>
+              <option value="Mercedes EQA300">Mercedes EQA300</option>
+              <option value="Mercedes EQE350 SUV">Mercedes EQE350 SUV</option>
+              <option value="Mercedes EQA250+ AMG">Mercedes EQA250+ AMG</option>
+            </select>
+            
+          </div>
+          <div class="form-1">
+            <label for="date"></label>
+            <input id="date" type="date" />
+            <label for="tid"></label>
+            <input id="tid" type="time" />
+          </div>
+            <div class="form-1">
+              <p>Jeg bekræfter, at jeg ønsker at planlægge en testkørsel</p>
+              <label for="tjek-box">Ja</label>
+              <input value="Ja" id="tjek-box1" name="check" type="checkbox">
+              <label for="tjek-box">Nej</label>
+              <input value="Nej" id="tjek-box2" name="check" type="checkbox">
+            </div>
+        </form>
+        <button id="indsend-btn">Indsend &#8594</button>
+      </section>
+      <section id="form-summary">
+        <h2>Summary</h2>
+        <article id="sum">
+          <!-- <p class="placeholder">Bekræft din testkørsel</p> -->
+          <div>
+            <h3>Navn:</h3>
+            <p id="fornavn"></p>
+          </div>
+          <div>
+            <h3>Efternavn:</h3>
+            <p id="efternavn"></p>
+          </div>
+          <div>
+            <h3>Email:</h3>
+            <p id="mail"></p>
+          </div>
+          <div>
+            <h3>Model:</h3>
+            <p id="model"></p>
+          </div>
+          <div>
+            <h3>Dato:</h3>
+            <p id="dato"></p>
+          </div>
+          <div>
+            <h3>Tidspunkt:</h3>
+            <p id="time"></p>
+          </div>
+          <div>
+            <h3>Bekræfter:</h3>
+            <p id="tjek"></p>
+          </div>
+          <button id="reset-btn">Bekræft</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/form.js"></script>
+  </body>
+</html>
