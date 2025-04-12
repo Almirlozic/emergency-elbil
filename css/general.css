@@ -28,11 +28,12 @@ footer {
 }
 #main-disclamer {
   height: 180px;
-  background-color: var(--header-background-color);
+  background-color: #ffff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 2rem;
+  margin-top: 60px;
 }
 #main-disclamer-content {
   display: flex;
@@ -54,7 +55,7 @@ h6 {
 }
 h1 {
   font-size: var(--headline1-size);
-  color: var(--headline-color-inverted);
+  color: black;
   margin: 5px 0;
   line-height: 1rem;
   text-align: left;
