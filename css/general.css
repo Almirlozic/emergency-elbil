@@ -136,7 +136,7 @@ footer a {
   padding: 1.5rem 1rem 0.5rem 1rem;
 }
 .yellow {
-  background-color: var(--info-bg-color-yellow);
+  background-color: #728569;
 }
 .green {
   background-color: var(--info-bg-color-green);
