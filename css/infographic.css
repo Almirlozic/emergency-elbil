@@ -3,13 +3,13 @@
 }
 .info-graphic,
 .info-text {
-  background-color: var(--info-background-color);
+  background-color: #ffff;
   padding: 0;
 }
 .info-text h2 {
   line-height: 3rem;
   text-align: center;
-  background-color: var(--headline-bg-color-inverted);
+  background-color: black;
   color: var(--headline-color-inverted);
   padding-top: 5px;
 }
@@ -29,3 +29,23 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+.Layer_2{
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 650px;
+}
+.hide{
+  visibility: hidden;
+}
+.fadeIn{
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
