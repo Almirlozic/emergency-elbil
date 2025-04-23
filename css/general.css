@@ -179,6 +179,10 @@ input:checked + .slider::before{
   translate: 100% 0;
   background-color: black;
 }
+.ikon{
+  width: 150px;
+  height: 150px;
+}
 
 
 
