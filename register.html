@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" id="lightmode" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
@@ -21,8 +21,9 @@
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Elbiler </a></li>
           <li><a class="menuItem" href="register.html">Book</a></li>
+          <legend id="switchtext">Dark mode</legend>
           <label class="switch">
-            <input type="checkbox" />
+            <input id="switchBtn" type="checkbox" />
             <span class="slider"></span>
           </label>
         </ul>
@@ -140,5 +141,6 @@
       </nav>
     </footer>
     <script src="js/form.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>

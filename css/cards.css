@@ -1,5 +1,5 @@
 .daily_card {
-  background-color: #ffff;
+  background-color: var(--article-background-color);
   display: grid;
   grid-template-columns: 3fr 5fr;
   gap: 10px;
@@ -14,7 +14,7 @@
   gap: 10px;
 }
 .daily_text h2 {
-  background-color: #728569;
+  background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 1rem;
   margin: 0 0 0.5rem 0;
@@ -32,7 +32,7 @@
   object-fit: cover;
 }
 .news_card {
-  background-color: #ffff;
+  background-color: var(--article-background-color);
   display: grid;
   grid-template-rows: repeat(min-content);
   gap: 0.4rem;
@@ -41,7 +41,7 @@
   height: minmax(300px, min-content);
 }
 .news_card:nth-child(2n) {
-  background-color: #ffff;
+  background-color: var(--news-background-color-inverted);
   border-bottom: 1px solid black;
 }
 .news_card > * {
@@ -55,7 +55,7 @@
 }
 .news_card:first-child:before {
   content: "BREAKING NEWS";
-  background-color: #728569;
+  background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   font-family: var(--headline-font);
   font-size: var(--headline3-size);
@@ -80,8 +80,8 @@
   padding: 0.3rem 0.5rem;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  background-color: #728569;
-  color: #ffff;
+  background-color: var(--followup-text-bg-color);
+  color: var(--followup-text-color);
   text-align: center;
   text-decoration: none;
   width: max-content;
@@ -103,8 +103,8 @@
 dialog {
   border: none;
   border-radius: var(--border-radius);
-  background-color: #ffff;
-  color: black;
+  background-color: var(--form-background-color);
+  color: var(--form-text-color);
   /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); */
   /* filter: drop-shadow(0px 0px 10px rgba(243, 61, 0, 1)); */
   /* border: 3px solid rgba(243, 61, 0, 1); */
