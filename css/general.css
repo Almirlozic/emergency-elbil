@@ -28,7 +28,7 @@ footer {
 }
 #main-disclamer {
   height: 180px;
-  background-color: #ffff;
+  background-color: var(--header-background-color);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -55,7 +55,7 @@ h6 {
 }
 h1 {
   font-size: var(--headline1-size);
-  color: black;
+  color: var(--headline-color-inverted);
   margin: 5px 0;
   line-height: 1rem;
   text-align: left;
@@ -68,8 +68,8 @@ h3 {
 }
 
 main > h1 {
-  background-color: white;
-  color: black;
+  background-color: var(--headline-bg-color-alert);
+  color: var(--headline-color-inverted);
   line-height: 4rem;
   padding: 5px 3rem 0 3rem;
   width: calc(80% - 6rem);
@@ -79,7 +79,7 @@ main > h1 {
 /* NAVIGATION STRUCTURES */
 header > nav {
   height: 100%;
-  background-color: #728569;
+  /* background-color: #728569; */
 }
 nav ul {
   list-style: none;
@@ -93,7 +93,7 @@ a {
   font-family: var(--link-font);
 }
 #logotype-wrapper {
-  background-color: white;
+  background-color: var(--logotype-background-color);
   margin: 0;
   display: flex;
   justify-content: flex-start;
@@ -102,7 +102,7 @@ a {
 }
 #logotype-wrapper > a {
   font-size: var(--logotype-size);
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: var(--logotype-font);
   height: 3rem;
   width: 100%;
@@ -111,8 +111,8 @@ a {
 }
 header nav li a {
   margin: 1.5rem;
-  background-color: white;
-  color: black;
+  background-color: var(--followup-text-bg-color);
+  color: var(--followup-text-color);
   font-size: var(--followup-text-size);
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
@@ -136,7 +136,7 @@ footer a {
   padding: 1.5rem 1rem 0.5rem 1rem;
 }
 .yellow {
-  background-color: #728569;
+  background-color: var(--info-bg-color-yellow);
 }
 .green {
   background-color: var(--info-bg-color-green);

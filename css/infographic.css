@@ -3,13 +3,13 @@
 }
 .info-graphic,
 .info-text {
-  background-color: #ffff;
+  background-color: var(--info-background-color);
   padding: 0;
 }
 .info-text h2 {
   line-height: 3rem;
   text-align: center;
-  background-color: black;
+  background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   padding-top: 5px;
 }
